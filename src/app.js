@@ -5,7 +5,7 @@ const PRODUCTS = [
   {id:'g3', title:'Standing Ganesh', category:'Ganesh', size:'3ft', material:'Sandstone', price:78000, img:'src/assets/ganesh_standing.png', desc:'3 ft standing Ganesh ideal for courtyards.'},
   {id:'b1', title:'Meditating Buddha', category:'Buddha', size:'2ft', material:'Granite', price:52000, img:'src/assets/budha.png', desc:'Serene Buddha for indoor sanctum.'},
   {id:'v1', title:'Vishnu on Garuda', category:'Vishnu', size:'3ft', material:'Granite', price:98000, img:'src/assets/photo/vishnu/sleeping/vishnu_sleeping_1.jpg', desc:'Detailed depiction of Vishnu with Garuda.'},
-  {id:'s1', title:'Shiva Lingam Set', category:'Shiva', size:'1ft', material:'Black Stone', price:16000, img:'src/assets/siva.png', desc:'Lingam with Nandi base.'},
+  {id:'s1', title:'Shiva Lingam Set', category:'Shiva', size:'2ft', material:'Sand Stone', price:35000, img:'src/assets/photo/shiva/sitting/siva_sitting_1.jpg', desc:'Sitting Siva in meditation.'},
   <!--sitting Ganesh-->
   {id:'g4', title:'Sitting Ganesh', category:'Ganesh', size:'3ft', material:'Black Granite Stone', price:125000, img:'src/assets/photo/ganesh/sitting/ganesh_sitting_1.jpg', desc:'Ganesha in black granite stone,Height 38 inch width 21 inch and thickness 14 inch.'},
   <!--{id:'g5', title:'Sitting Ganesh', category:'Ganesh', size:'3ft', material:'Black Granite Stone', price:125000, img:'src/assets/photo/ganesh/sitting/ganesh_sitting_2.jpg', desc:'Ganesha in black granite stone,Height 38 inch width 21 inch and thickness 14 inch.'},-->
