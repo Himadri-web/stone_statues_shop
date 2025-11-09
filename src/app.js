@@ -49,7 +49,7 @@ function productCard(p){
   const el = document.createElement('article');
   el.className = 'card';
   el.innerHTML = `
-    <div class="thumb" style="background-image:url('${p.img}');background-size:cover;background-position:center">
+    <div class="thumb" style="background-image:url('${p.img}');background-size:contain;background-position:center;background-repeat:no-repeat">
       <span class="tag">${p.size}</span>
     </div>
     <div class="card-body">
