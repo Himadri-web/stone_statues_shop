@@ -8,6 +8,16 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <!-- Slick Carousel -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 </head>
 <body>
   <header class="site-header">
@@ -148,10 +158,20 @@ As a socially driven enterprise, our primary objective is to generate sustainabl
   <!-- Quick View Modal -->
   <dialog id="productModal" class="modal">
     <form method="dialog" class="modal-card">
-      <img id="modalImage" alt="" class="modal-img"/>
+	  <div class="viewer-container">
       <div class="modal-body">
         <h3 id="modalTitle"></h3>
-        <p id="modalDesc" class="muted-text"></p>
+		<!-- MAIN IMAGE -->
+      <div class="main-image">
+        <div class="nav-arrow prev-arrow">&#10094;</div>
+        <img id="modalImage" class="modal-img"/>
+        <div class="nav-arrow next-arrow">&#10095;</div>
+      </div>
+		      <!-- THUMBNAIL CAROUSEL -->
+        <div class="thumb-carousel">
+       
+        </div>
+		<p id="modalDesc" class="muted-text"></p>
         <div class="meta-row">
           <span id="modalSize" class="tag"></span>
           <span id="modalMaterial" class="tag"></span>
