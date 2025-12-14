@@ -8,6 +8,16 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <!-- Slick Carousel -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 </head>
 <body>
   <header class="site-header">
@@ -148,10 +158,18 @@ As a socially driven enterprise, our primary objective is to generate sustainabl
   <!-- Quick View Modal -->
   <dialog id="productModal" class="modal">
     <form method="dialog" class="modal-card">
-      <img id="modalImage" alt="" class="modal-img"/>
+	  <div class="viewer-container">
       <div class="modal-body">
+		<!-- MAIN IMAGE -->
+         <div class="top-container">
+      <div class="left-section">
+        <div class="img-container" id="img-container">
+          <img id="main-img" src="#" />
+          <div id="magnifier"></div>
+        </div>
+        <div>
         <h3 id="modalTitle"></h3>
-        <p id="modalDesc" class="muted-text"></p>
+		<p id="modalDesc" class="muted-text"></p>
         <div class="meta-row">
           <span id="modalSize" class="tag"></span>
           <span id="modalMaterial" class="tag"></span>
@@ -161,6 +179,14 @@ As a socially driven enterprise, our primary objective is to generate sustainabl
           <strong id="modalPrice" class="price"></strong>
           <button id="modalAdd" type="button" class="btn primary">Add to Cart</button>
         </div>
+        </div>
+        <div id="zoom-result"></div>
+      </div>
+    </div>
+    <br />
+    <div class="thumbnails"></div>
+
+		
       </div>
       <button class="modal-close" aria-label="Close">✕</button>
     </form>

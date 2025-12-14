@@ -1,39 +1,39 @@
 /* Demo data (replace with your backend later) */
 const PRODUCTS = [
-  {id:'g1', title:'Sleeping Ganesh', category:'Ganesh', size:'1ft', material:'Black Stone', price:12000, img:'src/assets/ganesh_sleeping.png', desc:'Hand‑carved 1 ft Ganesh in reclining pose.'},
-  <!--{id:'g2', title:'Sitting Ganesh', category:'Ganesh', size:'2ft', material:'Marble', price:45000, img:'src/assets/ganesh_sitting.jpg', desc:'2 ft seated Ganesh with ornate detailing.'},-->
-  {id:'g3', title:'Standing Ganesh', category:'Ganesh', size:'3ft', material:'Sandstone', price:78000, img:'src/assets/ganesh_standing.png', desc:'3 ft standing Ganesh ideal for courtyards.'},
-  {id:'b1', title:'Meditating Buddha', category:'Buddha', size:'2ft', material:'Granite', price:52000, img:'src/assets/budha.png', desc:'Serene Buddha for indoor sanctum.'},
-  {id:'v1', title:'Vishnu on Garuda', category:'Vishnu', size:'3ft', material:'Granite', price:98000, img:'src/assets/photo/vishnu/sleeping/vishnu_sleeping_1.jpg', desc:'Detailed depiction of Vishnu with Garuda.'},
-  {id:'s1', title:'Shiva Lingam Set', category:'Shiva', size:'2ft', material:'Sand Stone', price:35000, img:'src/assets/photo/shiva/sitting/siva_sitting_1.jpg', desc:'Sitting Siva in meditation.'},
+  {id:'g1', title:'Sleeping Ganesh', category:'Ganesh', size:'1ft', material:'Black Stone', price:12000, img:['src/assets/ganesh_sleeping.png','src/assets/ganesh_sleeping.png','src/assets/ganesh_sleeping.png','src/assets/ganesh_sleeping.png'], desc:'Hand‑carved 1 ft Ganesh in reclining pose.'},
+  <!--{id:'g2', title:'Sitting Ganesh', category:'Ganesh', size:'2ft', material:'Marble', price:45000, img:['src/assets/ganesh_sitting.jpg','src/assets/ganesh_sitting.jpg','src/assets/ganesh_sitting.jpg','src/assets/ganesh_sitting.jpg'], desc:'2 ft seated Ganesh with ornate detailing.'},-->
+  {id:'g3', title:'Standing Ganesh', category:'Ganesh', size:'3ft', material:'Sandstone', price:78000, img:['src/assets/ganesh_standing.png','src/assets/ganesh_standing.png','src/assets/ganesh_standing.png','src/assets/ganesh_standing.png'], desc:'3 ft standing Ganesh ideal for courtyards.'},
+  {id:'b1', title:'Meditating Buddha', category:'Buddha', size:'2ft', material:'Granite', price:52000, img:['src/assets/budha.png','src/assets/budha.png','src/assets/budha.png','src/assets/budha.png'], desc:'Serene Buddha for indoor sanctum.'},
+  {id:'v1', title:'Vishnu on Garuda', category:'Vishnu', size:'3ft', material:'Granite', price:98000, img:['src/assets/photo/vishnu/sleeping/vishnu_sleeping_1.jpg','src/assets/photo/vishnu/sleeping/vishnu_sleeping_1.jpg','src/assets/photo/vishnu/sleeping/vishnu_sleeping_1.jpg','src/assets/photo/vishnu/sleeping/vishnu_sleeping_1.jpg'], desc:'Detailed depiction of Vishnu with Garuda.'},
+  {id:'s1', title:'Shiva Lingam Set', category:'Shiva', size:'2ft', material:'Sand Stone', price:35000, img:['src/assets/photo/shiva/sitting/siva_sitting_1.jpg','src/assets/photo/shiva/sitting/siva_sitting_1.jpg','src/assets/photo/shiva/sitting/siva_sitting_1.jpg','src/assets/photo/shiva/sitting/siva_sitting_1.jpg'], desc:'Sitting Siva in meditation.'},
   <!--sitting Ganesh-->
-  {id:'g4', title:'Sitting Ganesh', category:'Ganesh', size:'3ft', material:'Black Granite Stone', price:125000, img:'src/assets/photo/ganesh/sitting/ganesh_sitting_1.jpg', desc:'Ganesha in black granite stone,Height 38 inch width 21 inch and thickness 14 inch.'},
-  <!--{id:'g5', title:'Sitting Ganesh', category:'Ganesh', size:'3ft', material:'Black Granite Stone', price:125000, img:'src/assets/photo/ganesh/sitting/ganesh_sitting_2.jpg', desc:'Ganesha in black granite stone,Height 38 inch width 21 inch and thickness 14 inch.'},-->
-  <!--{id:'g6', title:'Sitting Ganesh', category:'Ganesh', size:'3ft', material:'Black Granite Stone', price:125000, img:'src/assets/photo/ganesh/sitting/ganesh_sitting_3.jpg', desc:'Ganesha in black granite stone,Height 38 inch width 21 inch and thickness 14 inch.'},-->
-  <!--{id:'g7', title:'Sitting Ganesh', category:'Ganesh', size:'3ft', material:'Black Granite Stone', price:125000, img:'src/assets/photo/ganesh/sitting/ganesh_sitting_4.jpg', desc:'Ganesha in black granite stone,Height 38 inch width 21 inch and thickness 14 inch.'},-->
-  <!--{id:'g8', title:'Sitting Ganesh', category:'Ganesh', size:'3ft', material:'Black Granite Stone', price:125000, img:'src/assets/photo/ganesh/sitting/ganesh_sitting_5.jpg', desc:'Ganesha in black granite stone,Height 38 inch width 21 inch and thickness 14 inch.'},-->
-  <!--{id:'g9', title:'Sitting Ganesh', category:'Ganesh', size:'3ft', material:'Black Granite Stone', price:125000, img:'src/assets/photo/ganesh/sitting/ganesh_sitting_6.jpg', desc:'Ganesha in black granite stone,Height 38 inch width 21 inch and thickness 14 inch.'},-->
+  {id:'g4', title:'Sitting Ganesh', category:'Ganesh', size:'3ft', material:'Black Granite Stone', price:125000, img:['src/assets/photo/ganesh/sitting/ganesh_sitting_1.jpg','src/assets/photo/ganesh/sitting/ganesh_sitting_1.jpg','src/assets/photo/ganesh/sitting/ganesh_sitting_1.jpg','src/assets/photo/ganesh/sitting/ganesh_sitting_1.jpg'], desc:'Ganesha in black granite stone,Height 38 inch width 21 inch and thickness 14 inch.'},
+  <!--{id:'g5', title:'Sitting Ganesh', category:'Ganesh', size:'3ft', material:'Black Granite Stone', price:125000, img:['src/assets/photo/ganesh/sitting/ganesh_sitting_2.jpg','src/assets/photo/ganesh/sitting/ganesh_sitting_2.jpg','src/assets/photo/ganesh/sitting/ganesh_sitting_2.jpg','src/assets/photo/ganesh/sitting/ganesh_sitting_2.jpg'], desc:'Ganesha in black granite stone,Height 38 inch width 21 inch and thickness 14 inch.'},-->
+  <!--{id:'g6', title:'Sitting Ganesh', category:'Ganesh', size:'3ft', material:'Black Granite Stone', price:125000, img:['src/assets/photo/ganesh/sitting/ganesh_sitting_3.jpg','src/assets/photo/ganesh/sitting/ganesh_sitting_3.jpg','src/assets/photo/ganesh/sitting/ganesh_sitting_3.jpg','src/assets/photo/ganesh/sitting/ganesh_sitting_3.jpg'], desc:'Ganesha in black granite stone,Height 38 inch width 21 inch and thickness 14 inch.'},-->
+  <!--{id:'g7', title:'Sitting Ganesh', category:'Ganesh', size:'3ft', material:'Black Granite Stone', price:125000, img:['src/assets/photo/ganesh/sitting/ganesh_sitting_4.jpg','src/assets/photo/ganesh/sitting/ganesh_sitting_4.jpg','src/assets/photo/ganesh/sitting/ganesh_sitting_4.jpg','src/assets/photo/ganesh/sitting/ganesh_sitting_4.jpg'], desc:'Ganesha in black granite stone,Height 38 inch width 21 inch and thickness 14 inch.'},-->
+  <!--{id:'g8', title:'Sitting Ganesh', category:'Ganesh', size:'3ft', material:'Black Granite Stone', price:125000, img:['src/assets/photo/ganesh/sitting/ganesh_sitting_5.jpg','src/assets/photo/ganesh/sitting/ganesh_sitting_5.jpg','src/assets/photo/ganesh/sitting/ganesh_sitting_5.jpg','src/assets/photo/ganesh/sitting/ganesh_sitting_5.jpg'], desc:'Ganesha in black granite stone,Height 38 inch width 21 inch and thickness 14 inch.'},-->
+  <!--{id:'g9', title:'Sitting Ganesh', category:'Ganesh', size:'3ft', material:'Black Granite Stone', price:125000, img:['src/assets/photo/ganesh/sitting/ganesh_sitting_6.jpg','src/assets/photo/ganesh/sitting/ganesh_sitting_6.jpg','src/assets/photo/ganesh/sitting/ganesh_sitting_6.jpg','src/assets/photo/ganesh/sitting/ganesh_sitting_6.jpg'], desc:'Ganesha in black granite stone,Height 38 inch width 21 inch and thickness 14 inch.'},-->
   
   <!--sitting Ganesh: black granite-->
-   {id:'g10', title:'Sitting Ganesh', category:'Ganesh', size:'3ft', material:'Black Granite Stone', price:115000, img:'src/assets/photo/ganesh/sitting/black_granite/ganesh_sitting_1.jpg', desc:'Ganesha in black granite stone,Height 36 inch width 21 inch and thickness 12 inch.'},
+   {id:'g10', title:'Sitting Ganesh', category:'Ganesh', size:'3ft', material:'Black Granite Stone', price:115000, img:['src/assets/photo/ganesh/sitting/black_granite/ganesh_sitting_1.jpg','src/assets/photo/ganesh/sitting/black_granite/ganesh_sitting_2.jpg','src/assets/photo/ganesh/sitting/black_granite/ganesh_sitting_3.jpg','src/assets/photo/ganesh/sitting/black_granite/ganesh_sitting_4.jpg'], desc:'Ganesha in black granite stone,Height 36 inch width 21 inch and thickness 12 inch.'},
   <!--{id:'g11', title:'Sitting Ganesh', category:'Ganesh', size:'3ft', material:'Black Granite Stone', price:115000, img:'src/assets/photo/ganesh/sitting/black_granite/ganesh_sitting_2.jpg', desc:'Ganesha in black granite stone,Height 36 inch width 21 inch and thickness 12 inch.'},-->
   <!--{id:'g12', title:'Sitting Ganesh', category:'Ganesh', size:'3ft', material:'Black Granite Stone', price:115000, img:'src/assets/photo/ganesh/sitting/black_granite/ganesh_sitting_3.jpg', desc:'Ganesha in black granite stone,Height 36 inch width 21 inch and thickness 12 inch.'},-->
   <!--{id:'g13', title:'Sitting Ganesh', category:'Ganesh', size:'3ft', material:'Black Granite Stone', price:115000, img:'src/assets/photo/ganesh/sitting/black_granite/ganesh_sitting_4.jpg', desc:'Ganesha in black granite stone,Height 36 inch width 21 inch and thickness 12 inch.'},-->
   
   <!--sitting Ganesh: black granite-->
-   {id:'g14', title:'Sitting Ganesh', category:'Ganesh', size:'3ft', material:'Black Granite Stone', price:135000, img:'src/assets/photo/ganesh/sitting/black_granite_1/ganesh_sitting_1.jpg', desc:'Ganesha in black granite stone, Height 36 inch width 22 inch and thickness 15 inch.'},
+   {id:'g14', title:'Sitting Ganesh', category:'Ganesh', size:'3ft', material:'Black Granite Stone', price:135000, img:['src/assets/photo/ganesh/sitting/black_granite_1/ganesh_sitting_1.jpg','src/assets/photo/ganesh/sitting/black_granite_1/ganesh_sitting_2.jpg','src/assets/photo/ganesh/sitting/black_granite_1/ganesh_sitting_3.jpg','src/assets/photo/ganesh/sitting/black_granite_1/ganesh_sitting_1.jpg'], desc:'Ganesha in black granite stone, Height 36 inch width 22 inch and thickness 15 inch.'},
   <!--{id:'g15', title:'Sitting Ganesh', category:'Ganesh', size:'3ft', material:'Black Granite Stone', price:135000, img:'src/assets/photo/ganesh/sitting/black_granite_1/ganesh_sitting_2.jpg', desc:'Ganesha in black granite stone, Height 36 inch width 22 inch and thickness 15 inch.'},-->
   <!--{id:'g16', title:'Sitting Ganesh', category:'Ganesh', size:'3ft', material:'Black Granite Stone', price:135000, img:'src/assets/photo/ganesh/sitting/black_granite_1/ganesh_sitting_3.jpg', desc:'Ganesha in black granite stone, Height 36 inch width 22 inch and thickness 15 inch.'},-->
 
 <!--Three headed sitting Ganesh: black granite-->
-   {id:'g17', title:'Sitting Ganesh', category:'Ganesh', size:'3ft', material:'Black Granite Stone', price:65000, img:'src/assets/photo/ganesh/sitting/three_head/ganesh_sitting_7.jpg', desc:'Three-headed Ganesha sculpture in black granite stone, height 24 inches, width 15 inches, and thickness 6 inches.'},
+   {id:'g17', title:'Sitting Ganesh', category:'Ganesh', size:'3ft', material:'Black Granite Stone', price:65000, img:['src/assets/photo/ganesh/sitting/three_head/ganesh_sitting_7.jpg','src/assets/photo/ganesh/sitting/three_head/ganesh_sitting_3.jpg','src/assets/photo/ganesh/sitting/three_head/ganesh_sitting_4.jpg','src/assets/photo/ganesh/sitting/three_head/ganesh_sitting_5.jpg'], desc:'Three-headed Ganesha sculpture in black granite stone, height 24 inches, width 15 inches, and thickness 6 inches.'},
 
 <!--42 inches sitting Ganesh: black granite-->
-   {id:'g18', title:'Sitting Ganesh', category:'Ganesh', size:'3ft', material:'Black Granite Stone', price:135000, img:'src/assets/photo/ganesh/sitting/42_inches/ganesh_sitting_1.jpg', desc:'Ganesha sculpture in black granite stone, height 42 inches, width 24 inches, and thickness 14 inches.'},
+   {id:'g18', title:'Sitting Ganesh', category:'Ganesh', size:'3ft', material:'Black Granite Stone', price:135000, img:['src/assets/photo/ganesh/sitting/42_inches/ganesh_sitting_1.jpg','src/assets/photo/ganesh/sitting/42_inches/ganesh_sitting_2.jpg','src/assets/photo/ganesh/sitting/42_inches/ganesh_sitting_3.jpg','src/assets/photo/ganesh/sitting/42_inches/ganesh_sitting_4.jpg'], desc:'Ganesha sculpture in black granite stone, height 42 inches, width 24 inches, and thickness 14 inches.'},
 <!--4 feets sitting Ganesh: black granite-->
-   {id:'g19', title:'Sitting Ganesh', category:'Ganesh', size:'4ft', material:'Black Granite Stone', price:165000, img:'src/assets/photo/ganesh/sitting/4_feet/ganesh_sitting_2.jpg', desc:'Ganesha sculpture in black granite stone, height 48 inches, width 26 inches, and thickness 16 inches.'},
+   {id:'g19', title:'Sitting Ganesh', category:'Ganesh', size:'4ft', material:'Black Granite Stone', price:165000, img:['src/assets/photo/ganesh/sitting/4_feet/ganesh_sitting_2.jpg','src/assets/photo/ganesh/sitting/4_feet/ganesh_sitting_1.jpg','src/assets/photo/ganesh/sitting/4_feet/ganesh_sitting_3.jpg','src/assets/photo/ganesh/sitting/4_feet/ganesh_sitting_4.jpg'], desc:'Ganesha sculpture in black granite stone, height 48 inches, width 26 inches, and thickness 16 inches.'},
 <!--5 feets sitting Ganesh: black granite-->
-   {id:'g20', title:'Sitting Ganesh', category:'Ganesh', size:'4ft', material:'Black Granite Stone', price:275000, img:'src/assets/photo/ganesh/sitting/5_feet/ganesh_sitting_1.jpg', desc:'Ganesha sculpture in black granite stone, height 60 inches, width 33 inches, and thickness 18 inches.'},    
+   {id:'g20', title:'Sitting Ganesh', category:'Ganesh', size:'4ft', material:'Black Granite Stone', price:275000, img:['src/assets/photo/ganesh/sitting/5_feet/ganesh_sitting_1.jpg','src/assets/photo/ganesh/sitting/5_feet/ganesh_sitting_4.jpg','src/assets/photo/ganesh/sitting/5_feet/ganesh_sitting_5.jpg','src/assets/photo/ganesh/sitting/5_feet/ganesh_sitting_6.jpg'], desc:'Ganesha sculpture in black granite stone, height 60 inches, width 33 inches, and thickness 18 inches.'},    
 ];
 
 
@@ -49,7 +49,7 @@ function productCard(p){
   const el = document.createElement('article');
   el.className = 'card';
   el.innerHTML = `
-    <div class="thumb" style="background-image:url('${p.img}');background-size:contain;background-position:center;background-repeat:no-repeat">
+    <div class="thumb" style="background-image:url('${p.img[0]}');background-size:contain;background-position:center;background-repeat:no-repeat">
       <span class="tag">${p.size}</span>
     </div>
     <div class="card-body">
@@ -108,11 +108,86 @@ grid.addEventListener('click', (e) => {
   if (quickId){ openModal(quickId); }
   if (addId){ addToCart(addId); }
 });
-
-function openModal(id){
+function openModal(id) {
   const p = PRODUCTS.find(x => x.id === id);
-  if(!p) return;
-  modalImage.src = p.img; modalImage.alt = p.title;
+  if (!p) return;
+
+const mainImg = document.getElementById('main-img');
+      const magnifier = document.getElementById('magnifier');
+      const zoomResult = document.getElementById('zoom-result');
+      const imgContainer = document.getElementById('img-container');
+      zoomResult.style.display = 'none';
+
+      let zoomLevel = 2.5; // zoom strength
+	  
+	  $('.thumbnails').html("");
+      p.img.forEach((src, i) => {
+        $('.thumbnails').append(
+          `<img class="thumbtwo" data-index="${i}" data-large="${src}" src="${src}" alt="thumbtwo-${i}">`
+        );
+      });
+      $('.thumbtwo').first().addClass('active');
+      mainImg.src = p.img[0];
+      // Move magnifier
+      function moveMagnifier(e) {
+        const rect = imgContainer.getBoundingClientRect();
+        let x = e.clientX - rect.left;
+        let y = e.clientY - rect.top;
+
+        const mw = magnifier.offsetWidth / 2;
+        const mh = magnifier.offsetHeight / 2;
+
+        if (x < mw) x = mw;
+        if (y < mh) y = mh;
+        if (x > rect.width - mw) x = rect.width - mw;
+        if (y > rect.height - mh) y = rect.height - mh;
+
+        magnifier.style.left = x - mw + 'px';
+        magnifier.style.top = y - mh + 'px';
+
+        zoomResult.style.backgroundPosition = `-${x * zoomLevel - 200}px -${
+          y * zoomLevel - 200
+        }px`;
+      }
+
+      imgContainer.addEventListener('mouseenter', () => {
+        magnifier.style.display = 'block';
+        zoomResult.style.display = 'block';
+      });
+
+      imgContainer.addEventListener('mouseleave', () => {
+        magnifier.style.display = 'none';
+        zoomResult.style.display = 'none';
+      });
+
+      imgContainer.addEventListener('mousemove', moveMagnifier);
+
+      // Thumbnail click
+      document.querySelectorAll('.thumbtwo').forEach((thumb) => {
+        thumb.addEventListener('click', function () {
+          document
+            .querySelectorAll('.thumbtwo')
+            .forEach((t) => t.classList.remove('active'));
+
+          this.classList.add('active');
+
+          const large = this.getAttribute('data-large');
+
+          mainImg.src = large;
+          zoomResult.style.backgroundImage = `url(${large})`;
+        });
+      });
+
+      // Initial zoom background
+      zoomResult.style.backgroundImage = `url(${mainImg.src})`;
+
+  
+
+
+ 
+
+  // Fill modal details
+ // modalImage.alt = p.title;
   modalTitle.textContent = p.title;
   modalDesc.textContent = p.desc;
   modalSize.textContent = p.size;
@@ -120,6 +195,7 @@ function openModal(id){
   modalCategory.textContent = p.category;
   modalPrice.textContent = money(p.price);
   modalAdd.onclick = () => addToCart(p.id);
+
   modal.showModal();
 }
 
@@ -145,7 +221,7 @@ function addToCart(id){
   const p = PRODUCTS.find(x => x.id === id);
   if(!p) return;
   const line = CART.find(l => l.id === id);
-  if(line) line.qty += 1; else CART.push({id:p.id, title:p.title, price:p.price, img:p.img, qty:1});
+  if(line) line.qty += 1; else CART.push({id:p.id, title:p.title, price:p.price, img:p.img[0], qty:1});
   updateCart(); openCart(); saveCart();
 }
 
