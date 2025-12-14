@@ -160,17 +160,15 @@ As a socially driven enterprise, our primary objective is to generate sustainabl
     <form method="dialog" class="modal-card">
 	  <div class="viewer-container">
       <div class="modal-body">
-        <h3 id="modalTitle"></h3>
 		<!-- MAIN IMAGE -->
-      <div class="main-image">
-        <div class="nav-arrow prev-arrow">&#10094;</div>
-        <img id="modalImage" class="modal-img"/>
-        <div class="nav-arrow next-arrow">&#10095;</div>
-      </div>
-		      <!-- THUMBNAIL CAROUSEL -->
-        <div class="thumb-carousel">
-       
+         <div class="top-container">
+      <div class="left-section">
+        <div class="img-container" id="img-container">
+          <img id="main-img" src="#" />
+          <div id="magnifier"></div>
         </div>
+        <div>
+        <h3 id="modalTitle"></h3>
 		<p id="modalDesc" class="muted-text"></p>
         <div class="meta-row">
           <span id="modalSize" class="tag"></span>
@@ -181,6 +179,14 @@ As a socially driven enterprise, our primary objective is to generate sustainabl
           <strong id="modalPrice" class="price"></strong>
           <button id="modalAdd" type="button" class="btn primary">Add to Cart</button>
         </div>
+        </div>
+        <div id="zoom-result"></div>
+      </div>
+    </div>
+    <br />
+    <div class="thumbnails"></div>
+
+		
       </div>
       <button class="modal-close" aria-label="Close">✕</button>
     </form>

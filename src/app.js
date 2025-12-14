@@ -112,65 +112,82 @@ function openModal(id) {
   const p = PRODUCTS.find(x => x.id === id);
   if (!p) return;
 
-  // Reset carousel content + destroy previous slick
-  if ($(".thumb-carousel").hasClass("slick-initialized")) {
-    $(".thumb-carousel").slick("unslick");
-  }
-  $(".thumb-carousel").html("");
+const mainImg = document.getElementById('main-img');
+      const magnifier = document.getElementById('magnifier');
+      const zoomResult = document.getElementById('zoom-result');
+      const imgContainer = document.getElementById('img-container');
+      zoomResult.style.display = 'none';
 
-  // Add thumbnails
-  p.img.forEach(img => {
-    $(".thumb-carousel").append(`
-      <div>
-        <img data-img="${img}" src="${img}" />
-      </div>
-    `);
-  });
+      let zoomLevel = 2.5; // zoom strength
+	  
+	  $('.thumbnails').html("");
+      p.img.forEach((src, i) => {
+        $('.thumbnails').append(
+          `<img class="thumbtwo" data-index="${i}" data-large="${src}" src="${src}" alt="thumbtwo-${i}">`
+        );
+      });
+      $('.thumbtwo').first().addClass('active');
+      mainImg.src = p.img[0];
+      // Move magnifier
+      function moveMagnifier(e) {
+        const rect = imgContainer.getBoundingClientRect();
+        let x = e.clientX - rect.left;
+        let y = e.clientY - rect.top;
 
-  // Initialize Slick (ONE TIME)
-  $(".thumb-carousel").on("init", function () {
+        const mw = magnifier.offsetWidth / 2;
+        const mh = magnifier.offsetHeight / 2;
 
-    // Attach click handler AFTER slick is ready
-    $(".thumb-carousel img").on("click", function () {
-      const imgUrl = $(this).attr("data-img");
+        if (x < mw) x = mw;
+        if (y < mh) y = mh;
+        if (x > rect.width - mw) x = rect.width - mw;
+        if (y > rect.height - mh) y = rect.height - mh;
 
-      $("#modalImage").fadeOut(150, function () {
-        $(this).attr("src", imgUrl).fadeIn(150);
+        magnifier.style.left = x - mw + 'px';
+        magnifier.style.top = y - mh + 'px';
+
+        zoomResult.style.backgroundPosition = `-${x * zoomLevel - 200}px -${
+          y * zoomLevel - 200
+        }px`;
+      }
+
+      imgContainer.addEventListener('mouseenter', () => {
+        magnifier.style.display = 'block';
+        zoomResult.style.display = 'block';
       });
 
-      $(".thumb-carousel img").removeClass("active");
-      $(this).addClass("active");
-    });
+      imgContainer.addEventListener('mouseleave', () => {
+        magnifier.style.display = 'none';
+        zoomResult.style.display = 'none';
+      });
 
-    // Activate first image
-    $(".thumb-carousel img").first().addClass("active");
-    $("#modalImage").attr("src", p.img[0]);
-  });
+      imgContainer.addEventListener('mousemove', moveMagnifier);
 
-  $(".thumb-carousel").slick({
-    slidesToShow: 4,
-    arrows: false,
-    infinite: false,
-  });
+      // Thumbnail click
+      document.querySelectorAll('.thumbtwo').forEach((thumb) => {
+        thumb.addEventListener('click', function () {
+          document
+            .querySelectorAll('.thumbtwo')
+            .forEach((t) => t.classList.remove('active'));
 
-  /* ---------------- Prev / Next Buttons ---------------- */
-  $(".next-arrow").off().on("click", function () {
-    $(".thumb-carousel").slick("slickNext");
-    updateMainFromSlick();
-  });
+          this.classList.add('active');
 
-  $(".prev-arrow").off().on("click", function () {
-    $(".thumb-carousel").slick("slickPrev");
-    updateMainFromSlick();
-  });
+          const large = this.getAttribute('data-large');
 
-  function updateMainFromSlick() {
-    const current = $(".thumb-carousel .slick-current img");
-    if (current.length) current.click();  // triggers main image update
-  }
+          mainImg.src = large;
+          zoomResult.style.backgroundImage = `url(${large})`;
+        });
+      });
+
+      // Initial zoom background
+      zoomResult.style.backgroundImage = `url(${mainImg.src})`;
+
+  
+
+
+ 
 
   // Fill modal details
-  modalImage.alt = p.title;
+ // modalImage.alt = p.title;
   modalTitle.textContent = p.title;
   modalDesc.textContent = p.desc;
   modalSize.textContent = p.size;
