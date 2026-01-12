@@ -52,7 +52,7 @@ function productCard(p){
   const el = document.createElement('article');
   el.className = 'card';
   el.innerHTML = `
-    <div class="thumb" style="background-image:url('${p.img[0]}');background-size:contain;background-position:center;background-repeat:no-repeat">
+    <div class="thumb" data-quick="${p.id}" style="background-image:url('${p.img[0]}');background-size:contain;background-position:center;background-repeat:no-repeat; cursor:pointer">
       <span class="tag">${p.size}</span>
     </div>
     <div class="card-body">
@@ -117,6 +117,7 @@ function openModal(id) {
 
 const mainImg = document.getElementById('main-img');
       const magnifier = document.getElementById('magnifier');
+	  magnifier.style.cursor = 'pointer';
       const zoomResult = document.getElementById('zoom-result');
       const imgContainer = document.getElementById('img-container');
       zoomResult.style.display = 'none';

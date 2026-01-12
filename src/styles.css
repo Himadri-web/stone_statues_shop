@@ -121,9 +121,11 @@ h2{margin:0 0 14px}
 
       .img-container {
         position: relative;
-        width: 866px;
+       /* width: 866px;
+        height: 500px;*/
+        /*border: 1px solid #ccc;*/
+	    width: 866px;
         height: 500px;
-        border: 1px solid #ccc;
         overflow: hidden;
       }
 
@@ -136,8 +138,8 @@ h2{margin:0 0 14px}
       /* magnifier square */
       #magnifier {
         position: absolute;
-        width: 100px;
-        height: 100px;
+        width: 120px;
+        height: 120px;
         border: 2px solid #000;
         background: rgba(255, 255, 255, 0.4);
         pointer-events: none;
@@ -146,9 +148,9 @@ h2{margin:0 0 14px}
 
       /* zoom window on right */
       #zoom-result {
-        width: 400px;
-        height: 400px;
-        border: 1px solid #aaa;
+        width: 365px;
+        height: 365px;
+        /*border: 1px solid #aaa;*/
         background-repeat: no-repeat;
         background-size: 1200px 1200px;
         position: absolute;
