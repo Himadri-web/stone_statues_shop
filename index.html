@@ -1,30 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Omm Kalakruti — Stone Statues</title>
-  <link rel="stylesheet" href="src/styles.css"/>
+  <link rel="stylesheet" href="src/styles.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
   <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 
-    <!-- Slick Carousel -->
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
-    />
-    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <!-- Slick Carousel -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 </head>
+
 <body>
   <header class="site-header">
     <div class="container header-inner">
       <a href="#" class="logo">Omm<span>Kalakruti</span></a>
       <nav class="nav">
-	    <a href="index.html">Home</a>
+        <a href="index.html">Home</a>
         <a href="#catalog">Catalog</a>
         <a href="#categories">Categories</a>
         <a href="#about">About</a>
@@ -47,39 +46,39 @@
         </div>
       </div>
       <div class="hero-art" role="img" aria-label="Stone sculpture collage">
-	  <a class="hero-card">
-        <img src="src/assets/combined_statues.jpg" class="hero-art" />
-      </a>
-	  </div>
+        <a class="hero-card">
+          <img src="src/assets/combined_statues.jpg" class="hero-art" />
+        </a>
+      </div>
     </div>
   </section>
 
   <section id="categories" class="section">
     <div class="container">
       <h2>Browse by Category</h2>
-    <div class="grid cat-grid">
-      
-      <a class="cat-card" data-filter="Ganesh">
-        <img src="src/assets/ganesh_sitting.jpg" alt="Ganesh Statue" class="cat-art" />
-        <h3>Ganesh</h3>
-      </a>
+      <div class="grid cat-grid">
 
-      <a class="cat-card" data-filter="Buddha">
-        <img src="src/assets/budha_new.jpeg" alt="Buddha Statue" class="cat-art" />
-        <h3>Buddha</h3>
-      </a>
+        <a class="cat-card" data-filter="Ganesh">
+          <img src="src/assets/ganesh_sitting.jpg" alt="Ganesh Statue" class="cat-art" />
+          <h3>Ganesh</h3>
+        </a>
 
-      <a class="cat-card" data-filter="Vishnu">
-        <img src="src/assets/vishnu.png" alt="Vishnu Statue" class="cat-art" />
-        <h3>Vishnu</h3>
-      </a>
+        <a class="cat-card" data-filter="Buddha">
+          <img src="src/assets/budha_new.jpeg" alt="Buddha Statue" class="cat-art" />
+          <h3>Buddha</h3>
+        </a>
 
-      <a class="cat-card" data-filter="Shiva">
-        <img src="src/assets/siva_new.jpeg" alt="Shiva Statue" class="cat-art" />
-        <h3>Shiva</h3>
-      </a>
+        <a class="cat-card" data-filter="Vishnu">
+          <img src="src/assets/vishnu.png" alt="Vishnu Statue" class="cat-art" />
+          <h3>Vishnu</h3>
+        </a>
 
-    </div>
+        <a class="cat-card" data-filter="Shiva">
+          <img src="src/assets/siva_new.jpeg" alt="Shiva Statue" class="cat-art" />
+          <h3>Shiva</h3>
+        </a>
+
+      </div>
     </div>
   </section>
 
@@ -93,8 +92,8 @@
             <option value="1ft">1 ft</option>
             <option value="2ft">2 ft</option>
             <option value="3ft">3 ft</option>
-			<option value="4ft">4 ft</option>
-			<option value="5ft">5 ft</option>
+            <option value="4ft">4 ft</option>
+            <option value="5ft">5 ft</option>
           </select>
           <select id="categoryFilter" aria-label="Filter by category">
             <option value="">All Categories</option>
@@ -103,7 +102,7 @@
             <option>Vishnu</option>
             <option>Shiva</option>
           </select>
-          <input id="searchInput" type="search" placeholder="Search products…"/>
+          <input id="searchInput" type="search" placeholder="Search products…" />
         </div>
       </div>
       <div id="productGrid" class="grid product-grid"></div>
@@ -113,39 +112,40 @@
   <section id="about" class="section muted">
     <div class="container narrow">
       <h2>About Our Studio</h2>
-      <p>We specialize in hand‑carved stone statues made by traditional artisans. Each piece is unique and created using time‑honored techniques. We accept custom orders and international shipping requests.</p>
-	  <p>We are an organization based in rural Odisha, India, specializing in the creation of statues and sculptures. 
-Our expertise covers a wide range of religious and decorative works crafted in stone, marble, and wood. 
-As a socially driven enterprise, our primary objective is to generate sustainable employment opportunities rather than focus solely on profit maximization.</p>
-  <video width="640" height="360" controls>
-	<source src="src/assets/video/video_bishnu_1.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-  <video width="640" height="360" controls>
-	<source src="src/assets/video/video_budha_1.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
+      <p>We specialize in hand‑carved stone statues made by traditional artisans. Each piece is unique and created using
+        time‑honored techniques. We accept custom orders and international shipping requests.</p>
+      <p>We are an organization based in rural Odisha, India, specializing in the creation of statues and sculptures.
+        Our expertise covers a wide range of religious and decorative works crafted in stone, marble, and wood.
+        As a socially driven enterprise, our primary objective is to generate sustainable employment opportunities
+        rather than focus solely on profit maximization.</p>
+      <video width="640" height="360" controls>
+        <source src="src/assets/video/video_bishnu_1.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <video width="640" height="360" controls>
+        <source src="src/assets/video/video_budha_1.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
     </div>
   </section>
 
   <section id="contact" class="section">
     <div class="container narrow">
       <h2>Contact</h2>
-      <p>Email: <a href="mailto:ommstoneart@gmail.com">ommstoneart@gmail.com</a> · Phone: +91‑75042‑99519/80189-06042</p>
-	  <!-- WhatsApp Chat Button -->
-  <a
-    href="https://wa.me/7504299519"
-    class="whatsapp-button"
-    target="_blank"
-    aria-label="Chat on WhatsApp"
-  >
-    <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" alt="WhatsApp Icon" />
-    Chat with us
-  </a>
-  <h3>Find Us</h3>
-<iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3717.071169548687!2d86.70934877526433!3d21.308203980411974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjHCsDE4JzI5LjUiTiA4NsKwNDInNDIuOSJF!5e0!3m2!1sen!2sin!4v1758480684783!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <p>Email: <a href="mailto:ommstoneart@gmail.com">ommstoneart@gmail.com</a> · Phone: +91‑75042‑99519/80189-06042
+      </p>
+      <!-- WhatsApp Chat Button -->
+      <a href="https://wa.me/7504299519" class="whatsapp-button" target="_blank" aria-label="Chat on WhatsApp">
+        <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" alt="WhatsApp Icon" />
+        Chat with us
+      </a>
+      <h3>Find Us</h3>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3717.071169548687!2d86.70934877526433!3d21.308203980411974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjHCsDE4JzI5LjUiTiA4NsKwNDInNDIuOSJF!5e0!3m2!1sen!2sin!4v1758480684783!5m2!1sen!2sin"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-  <!--<script src="src/script.js"></script> -->
+      <!--<script src="src/script.js"></script> -->
     </div>
   </section>
 
@@ -159,37 +159,38 @@ As a socially driven enterprise, our primary objective is to generate sustainabl
   <!-- Quick View Modal -->
   <dialog id="productModal" class="modal">
     <form method="dialog" class="modal-card">
-	  <div class="viewer-container">
-      <div class="modal-body">
-		<!-- MAIN IMAGE -->
-         <div class="top-container">
-      <div class="left-section">
-        <div class="img-container" id="img-container">
-          <img id="main-img" src="#" />
-          <div id="magnifier"></div>
-        </div>
-        <div>
-        <h3 id="modalTitle"></h3>
-		<p id="modalDesc" class="muted-text"></p>
-        <div class="meta-row">
-          <span id="modalSize" class="tag"></span>
-          <span id="modalMaterial" class="tag"></span>
-          <span id="modalCategory" class="tag"></span>
-        </div>
-        <div class="price-row">
-          <strong id="modalPrice" class="price"></strong>
-          <button id="modalAdd" type="button" class="btn primary">Add to Cart</button>
-        </div>
-        </div>
-        <div id="zoom-result"></div>
-      </div>
-    </div>
-    <br />
-    <div class="thumbnails"></div>
+      <div class="viewer-container">
+        <div class="modal-body">
+          <!-- MAIN IMAGE -->
+          <div class="top-container">
+            <div class="left-section">
+              <div class="img-container" id="img-container">
+                <img id="main-img" src="#" />
+                <div id="magnifier"></div>
+              </div>
+              <div class="rightDesc">
+                <h3 id="modalTitle"></h3>
+                <p id="modalDesc" class="muted-text"></p>
+                <div class="meta-row">
+                  <span id="modalSize" class="tag"></span>
+                  <span id="modalMaterial" class="tag"></span>
+                  <span id="modalCategory" class="tag"></span>
+                </div>
+                <div class="price-row">
+                  <strong id="modalPrice" class="price"></strong>
+                  <button id="modalAdd" type="button" class="btn primary">Add to Cart</button>
+                </div>
+              </div>
+              <div id="zoom-result"></div>
 
-		
-      </div>
-      <button class="modal-close" aria-label="Close">✕</button>
+            </div>
+          </div>
+          <br />
+          <div class="thumbnails"></div>
+
+
+        </div>
+        <button class="modal-close" aria-label="Close">✕</button>
     </form>
   </dialog>
 
@@ -209,4 +210,5 @@ As a socially driven enterprise, our primary objective is to generate sustainabl
 
   <script src="src/app.js"></script>
 </body>
+
 </html>
