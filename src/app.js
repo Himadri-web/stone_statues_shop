@@ -46,9 +46,19 @@ const PRODUCTS = [
    {id:'g21', title:'Sitting Ganesh', category:'Ganesh', size:'2ft', material:'Granite Stone', price:47500, img:['src/assets/photo/ganesh/sitting/24_inches/ganesh_sitting_1.jpg','src/assets/photo/ganesh/sitting/24_inches/ganesh_sitting_2.jpg','src/assets/photo/ganesh/sitting/24_inches/ganesh_sitting_3.jpg','src/assets/photo/ganesh/sitting/24_inches/ganesh_sitting_4.jpg'], desc:'Ganesha sculpture in granite stone with grey finishing, height 24 inches, width 14 inches, and thickness 8 inches.'}, 
 <!--18 inches sitting Ganesh: black granite-->
    {id:'g22', title:'Sitting Ganesh', category:'Ganesh', size:'1ft', material:'Granite Stone', price:28500, img:['src/assets/photo/ganesh/sitting/18_inches/ganesh_sitting_1.jpg','src/assets/photo/ganesh/sitting/18_inches/ganesh_sitting_2.jpg','src/assets/photo/ganesh/sitting/18_inches/ganesh_sitting_3.jpg','src/assets/photo/ganesh/sitting/18_inches/ganesh_sitting_4.jpg'], desc:'Ganesha sculpture in granite stone with grey finishing, height 18 inches, width 10 inches, and thickness 5 inches.'},
+<!--Maa-->
+   {id:'m1', title:'Red Stone Saraswati', category:'Maa', size:'1ft', material:'Red Stone', price:32500, img:['src/assets/photo/maa/saraswati/red_stone/saraswati_sitting_1.jpg','src/assets/photo/maa/saraswati/red_stone/saraswati_sitting_2.jpg','src/assets/photo/maa/saraswati/red_stone/saraswati_sitting_3.jpg','src/assets/photo/maa/saraswati/red_stone/saraswati_sitting_4.jpg'], desc:'Saraswati sculpture in red natural stone, height 18 inches, width 10 inches, and thickness 6 inches.'},
+   <!--White marble Saraswati-->
+   {id:'m2', title:'White Marble Saraswati', category:'Maa', size:'2ft', material:'White Marble', price:65000, img:['src/assets/photo/maa/saraswati/white_marble/saraswati_sitting_1.jpg','src/assets/photo/maa/saraswati/white_marble/saraswati_sitting_2.jpg','src/assets/photo/maa/saraswati/white_marble/saraswati_sitting_3.jpg','src/assets/photo/maa/saraswati/white_marble/saraswati_sitting_4.jpg'], desc:'Saraswati sculpture in white marble, height 26 inches, width 18 inches, and thickness 9 inches.'}, 
+   <!--Grey stone Saraswati statue-->
+   {id:'m3', title:'Grey stone Saraswati', category:'Maa', size:'2ft', material:'Grey Stone', price:65000, img:['src/assets/photo/maa/saraswati/grey_stone/saraswati_sitting_1.jpg','src/assets/photo/maa/saraswati/grey_stone/saraswati_sitting_2.jpg','src/assets/photo/maa/saraswati/grey_stone/saraswati_sitting_3.jpg','src/assets/photo/maa/saraswati/grey_stone/saraswati_sitting_4.jpg'], desc:'Saraswati sculpture in grey stone, height 28 inches, width 19 inches, and thickness 10 inches.'}, 
+   <!--Maa Kali head bust-->
+   {id:'m4', title:'Grey stone Kali head bust', category:'Maa', size:'2ft', material:'Grey Stone', price:42500, img:['src/assets/photo/maa/kali/head_bust/kali_sitting_1.jpg','src/assets/photo/maa/kali/head_bust/kali_sitting_2.jpg','src/assets/photo/maa/kali/head_bust/kali_sitting_3.jpg','src/assets/photo/maa/kali/head_bust/kali_sitting_4.jpg'], desc:'Maa Kali head bust sculpture in grey stone, height 18 inches, width 15 inches, and thickness 6 inches.'},     
+
+<!--Kalbhairav-->
+   {id:'k1', title:'Black Granite Kalbhairav', category:'Kalbhairav', size:'4ft', material:'Black Granite Stone', price:175000, img:['src/assets/photo/kalbhairav/sitting/4_feets/kalbhairav_sitting_1.jpg','src/assets/photo/kalbhairav/sitting/4_feets/kalbhairav_sitting_2.jpg','src/assets/photo/kalbhairav/sitting/4_feets/kalbhairav_sitting_3.jpg','src/assets/photo/kalbhairav/sitting/4_feets/kalbhairav_sitting_4.jpg'], desc:'Kalbhairav sculpture in black granite stone, height 60 inches, width 33 inches, and thickness 20 inches.'},    
    
 ];
-
 
 /* Render utilities */
 const grid = document.getElementById('productGrid');
