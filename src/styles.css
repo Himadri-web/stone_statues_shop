@@ -288,7 +288,7 @@ input[type=search] {
 }
 
 .price {
-  font-size: 14px
+  font-size: 12px
 }
 
 .small {
@@ -495,7 +495,7 @@ h2 {
   position: relative;
   /* width: 866px;
         height: 500px;*/
-  width: 60%;
+  width: 40%;
   height: 550px;
   overflow: hidden;
   margin-right: 2%;
