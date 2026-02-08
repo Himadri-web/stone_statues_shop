@@ -71,9 +71,6 @@ const PRODUCTS = [
 	<!--Tribhanga Krishna in 24 inch -->
   {id:'v23', title:'Tribhanga Krishna statue in Black Marble', category:'Vishnu', size:'2ft', material:'Black Granite', price:48500, img:['src/assets/photo/vishnu/sitting/tribhanga_krishna_24_inches/vishnu_sitting_1.jpg','src/assets/photo/vishnu/sitting/tribhanga_krishna_24_inches/vishnu_sitting_2.jpg','src/assets/photo/vishnu/sitting/tribhanga_krishna_24_inches/vishnu_sitting_3.jpg','src/assets/photo/vishnu/sitting/tribhanga_krishna_24_inches/vishnu_sitting_4.jpg'], desc:'Tribhanga Krishna statue in Black Marble, height 24 inches, width 12 inches, and thickness 6 inches.'},
 
-	<!--Tribhanga Krishna in 24 inch -->
-  {id:'v23', title:'Tribhanga Krishna statue in Black Marble', category:'Vishnu', size:'2ft', material:'Black Granite', price:48500, img:['src/assets/photo/vishnu/sitting/tribhanga_krishna_24_inches/vishnu_sitting_1.jpg','src/assets/photo/vishnu/sitting/tribhanga_krishna_24_inches/vishnu_sitting_2.jpg','src/assets/photo/vishnu/sitting/tribhanga_krishna_24_inches/vishnu_sitting_3.jpg','src/assets/photo/vishnu/sitting/tribhanga_krishna_24_inches/vishnu_sitting_4.jpg'], desc:'Tribhanga Krishna statue in Black Marble, height 24 inches, width 12 inches, and thickness 6 inches.'},
-
 	<!--Blue Granite Kalki statue -->
   {id:'v24', title:'Kalki statue in Blue Granite', category:'Vishnu', size:'1ft', material:'Blue Granite', price:35500, img:['src/assets/photo/vishnu/sitting/blue_granite_kalki/vishnu_sitting_1.jpg','src/assets/photo/vishnu/sitting/blue_granite_kalki/vishnu_sitting_2.jpg','src/assets/photo/vishnu/sitting/blue_granite_kalki/vishnu_sitting_3.jpg','src/assets/photo/vishnu/sitting/blue_granite_kalki/vishnu_sitting_4.jpg'], desc:'Kalki statue in Black Marble, height 18 inches, width 10 inches, and thickness 6 inches.'},
   
@@ -89,6 +86,18 @@ const PRODUCTS = [
   	<!--Baman Dev with 27 inch -->
   {id:'v28', title:'Baman Dev statue in Blue Granite', category:'Vishnu', size:'1ft', material:'Blue Granite', price:32500, img:['src/assets/photo/vishnu/sitting/baman_dev/vishnu_sitting_1.jpg','src/assets/photo/vishnu/sitting/baman_dev/vishnu_sitting_2.jpg','src/assets/photo/vishnu/sitting/baman_dev/vishnu_sitting_3.jpg','src/assets/photo/vishnu/sitting/baman_dev/vishnu_sitting_4.jpg'], desc:'Baman Dev statue in Blue Granite, height 15 inches, width 9 inches, and thickness 6 inches.'},
   
+  	<!--21 inch Naked Bal Krishna Idol -->
+  {id:'v29', title:'Naked Bal Krishna Idol in Black Granite', category:'Vishnu', size:'1ft', material:'Black Granite', price:45500, img:['src/assets/photo/vishnu/sitting/naked_bal_krishna/vishnu_sitting_1.jpg','src/assets/photo/vishnu/sitting/naked_bal_krishna/vishnu_sitting_2.jpg','src/assets/photo/vishnu/sitting/naked_bal_krishna/vishnu_sitting_3.jpg','src/assets/photo/vishnu/sitting/naked_bal_krishna/vishnu_sitting_4.jpg'], desc:'Naked Bal Krishna Idol in Black Granite, height 21 inches, width 10 inches, and thickness 8 inches.'},
+
+  	<!--20 inch Sitting Vishnu on Ananta -->
+  {id:'v30', title:'Sitting Vishnu on Ananta in Black Granite', category:'Vishnu', size:'1ft', material:'Black Granite', price:38500, img:['src/assets/photo/vishnu/sitting/sitting_vishnu_on_ananta/vishnu_sitting_1.jpg','src/assets/photo/vishnu/sitting/sitting_vishnu_on_ananta/vishnu_sitting_2.jpg','src/assets/photo/vishnu/sitting/sitting_vishnu_on_ananta/vishnu_sitting_3.jpg','src/assets/photo/vishnu/sitting/sitting_vishnu_on_ananta/vishnu_sitting_4.jpg'], desc:'Sitting Vishnu on Ananta in Black Granite, height 20 inches, width 10 inches, and thickness 5 inches.'}, 
+
+  	<!--4 feet Sitting Vishnu on Ananta nag -->
+  {id:'v31', title:'Sitting Vishnu on Ananta in Grey Granite', category:'Vishnu', size:'1ft', material:'Grey Granite', price:175000, img:['src/assets/photo/vishnu/sitting/sitting_vishnu_on_ananta_4_feets/vishnu_sitting_1.jpg','src/assets/photo/vishnu/sitting/sitting_vishnu_on_ananta_4_feets/vishnu_sitting_2.jpg','src/assets/photo/vishnu/sitting/sitting_vishnu_on_ananta_4_feets/vishnu_sitting_3.jpg','src/assets/photo/vishnu/sitting/sitting_vishnu_on_ananta_4_feets/vishnu_sitting_4.jpg'], desc:'Sitting Vishnu on Ananta in Grey Granite, height 48 inches, width 27 inches, and thickness 15 inches.'},  
+
+  	<!--3 feet Hoyashala pattern Vishnu -->
+  {id:'v32', title:'Hoyashala pattern Vishnu in Grey Granite', category:'Vishnu', size:'3ft', material:'Grey Granite', price:95000, img:['src/assets/photo/vishnu/sitting/hoyashala_pattern/vishnu_sitting_1.jpg','src/assets/photo/vishnu/sitting/hoyashala_pattern/vishnu_sitting_2.jpg','src/assets/photo/vishnu/sitting/hoyashala_pattern/vishnu_sitting_3.jpg','src/assets/photo/vishnu/sitting/hoyashala_pattern/vishnu_sitting_4.jpg'], desc:'Hoyashala pattern Vishnu in Grey Granite, height 36 inches, width 21 inches, and thickness 12 inches.'},  
+
 
 <!--Lord Siva  -->
   {id:'s1', title:'Shiva Lingam Set', category:'Shiva', size:'2ft', material:'Sand Stone', price:33500, img:['src/assets/photo/shiva/sitting/24_inches/siva_sitting_1.jpg','src/assets/photo/shiva/sitting/24_inches/siva_sitting_2.jpg','src/assets/photo/shiva/sitting/24_inches/siva_sitting_3.jpg','src/assets/photo/shiva/sitting/24_inches/siva_sitting_4.jpg'], desc:'Sitting Shiva statue in sand stone, height 24 inches, width 15 inches, and thickness 7 inches.'},
