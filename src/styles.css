@@ -674,6 +674,12 @@ h2 {
   select, input[type=search] {
     width: 100%;
   }
+ .modal-close {
+        color: var(--bg);
+        font-weight: bold;
+        border-radius: 50%;
+        border: 1px solid var(--bg);
+ }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
 
@@ -730,4 +736,5 @@ h2 {
   .cart {
     width: 420px;
   }
+  
 }
