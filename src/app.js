@@ -367,6 +367,8 @@ if (isMobile) {
   modal.showModal();
 }
 
+
+
 /* Cart */
 const cart = document.getElementById('cart');
 const cartBackdrop = document.getElementById('cartBackdrop');
