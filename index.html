@@ -77,11 +77,6 @@
           <img src="src/assets/siva_new.jpeg" alt="Shiva Statue" class="cat-art" />
           <h3>Shiva</h3>
         </a>
-		
-		<a class="cat-card" data-filter="Devi">
-          <img src="src/assets/saraswati.jpg" alt="Devi Statue" class="cat-art" />
-          <h3>Devi</h3>
-        </a>
 
       </div>
     </div>
@@ -99,8 +94,6 @@
             <option value="3ft">3 ft</option>
             <option value="4ft">4 ft</option>
             <option value="5ft">5 ft</option>
-			<option value="6ft">6 ft</option>
-			<option value="15ft">15 ft</option>
           </select>
           <select id="categoryFilter" aria-label="Filter by category">
             <option value="">All Categories</option>
@@ -108,7 +101,6 @@
             <option>Buddha</option>
             <option>Vishnu</option>
             <option>Shiva</option>
-			<option>Devi</option>
           </select>
           <input id="searchInput" type="search" placeholder="Search products…" />
         </div>
@@ -167,16 +159,20 @@
   <!-- Quick View Modal -->
   <dialog id="productModal" class="modal">
     <form method="dialog" class="modal-card">
-      <div class="viewer-container">
-        <div class="modal-body">
+      <!-- <div class="viewer-container1">
+        <div class="modal-body1"> -->
           <!-- MAIN IMAGE -->
-          <div class="top-container">
+          <!-- <div class="top-container1"> -->
             <div class="left-section">
               <div class="img-container" id="img-container">
                 <img id="main-img" src="#" />
                 <div id="magnifier"></div>
               </div>
-              <div class="rightDesc">
+              
+              
+
+            </div>
+             <div class="rightDesc">
                 <h3 id="modalTitle"></h3>
                 <p id="modalDesc" class="muted-text"></p>
                 <div class="meta-row">
@@ -187,17 +183,17 @@
                 <div class="price-row">
                   <strong id="modalPrice" class="price"></strong>
                   <button id="modalAdd" type="button" class="btn primary">Add to Cart</button>
-                </div>
+                </div><hr/>
+                               <div class="thumbnails"></div>
+                               <div id="zoom-result"></div>
+
               </div>
-              <div id="zoom-result"></div>
-
-            </div>
-          </div>
-          <br />
-          <div class="thumbnails"></div>
+          <!-- </div> -->
+         
+         
 
 
-        </div>
+        <!-- </div> -->
         <button class="modal-close" aria-label="Close">✕</button>
     </form>
   </dialog>

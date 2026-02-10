@@ -284,7 +284,7 @@ const mainImg = document.getElementById('main-img');
       zoomResult.style.display = 'none';
 
       let zoomLevel = 2.5; // zoom strength
-	  
+	  const isMobile = window.innerWidth <= 767;
 	  $('.thumbnails').html("");
       p.img.forEach((src, i) => {
         $('.thumbnails').append(
@@ -314,7 +314,7 @@ const mainImg = document.getElementById('main-img');
           y * zoomLevel - 200
         }px`;
       }
-
+if (!isMobile) {
       imgContainer.addEventListener('mouseenter', () => {
         magnifier.style.display = 'block';
         zoomResult.style.display = 'block';
@@ -326,7 +326,7 @@ const mainImg = document.getElementById('main-img');
       });
 
       imgContainer.addEventListener('mousemove', moveMagnifier);
-
+    }
       // Thumbnail click
       document.querySelectorAll('.thumbtwo').forEach((thumb) => {
         thumb.addEventListener('click', function () {
@@ -347,7 +347,10 @@ const mainImg = document.getElementById('main-img');
       zoomResult.style.backgroundImage = `url(${mainImg.src})`;
 
   
-
+if (isMobile) {
+  magnifier.style.display = 'none';
+  zoomResult.style.display = 'none';
+}
 
  
 
