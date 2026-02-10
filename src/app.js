@@ -3,8 +3,27 @@ const PRODUCTS = [
   <!--{id:'g1', title:'Sleeping Ganesh', category:'Ganesh', size:'1ft', material:'Black Stone', price:12000, img:['src/assets/ganesh_sleeping.png','src/assets/ganesh_sleeping.png','src/assets/ganesh_sleeping.png','src/assets/ganesh_sleeping.png'], desc:'Hand‑carved 1 ft Ganesh in reclining pose.'},-->
   <!--{id:'g2', title:'Sitting Ganesh', category:'Ganesh', size:'2ft', material:'Marble', price:45000, img:['src/assets/ganesh_sitting.jpg','src/assets/ganesh_sitting.jpg','src/assets/ganesh_sitting.jpg','src/assets/ganesh_sitting.jpg'], desc:'2 ft seated Ganesh with ornate detailing.'},-->
   <!--{id:'g3', title:'Standing Ganesh', category:'Ganesh', size:'3ft', material:'Sandstone', price:78000, img:['src/assets/ganesh_standing.png','src/assets/ganesh_standing.png','src/assets/ganesh_standing.png','src/assets/ganesh_standing.png'], desc:'3 ft standing Ganesh ideal for courtyards.'},-->
+  
+  <!--Buddha-->
   {id:'b1', title:'Meditating Buddha', category:'Buddha', size:'2ft', material:'Granite', price:45000, img:['src/assets/photo/budha/buddha_meditating/buddha_meditating_1.jpg','src/assets/photo/budha/buddha_meditating/buddha_meditating_2.jpg','src/assets/photo/budha/buddha_meditating/buddha_meditating_3.jpg','src/assets/photo/budha/buddha_meditating/buddha_meditating_4.jpg'], desc:'Made from black granite with grey finishing, height 24 inches, width 17 inches, and thickness 10 inches.'},
   {id:'b2', title:'Meditating Buddha', category:'Buddha', size:'1ft', material:'White Marble', price:47550, img:['src/assets/photo/budha/white_marble/budha_white_marble_1.jpg','src/assets/photo/budha/white_marble/budha_white_marble_2.jpg','src/assets/photo/budha/white_marble/budha_white_marble_3.jpg','src/assets/photo/budha/white_marble/budha_white_marble_4.jpg'], desc:'Made from white natural marble, height 18 inches, width 13 inches, and thickness 6 inches.'},
+  <!--Blessing Buddha in 2 feet -->
+  {id:'b3', title:'Asriwad Buddha', category:'Buddha', size:'2ft', material:'Black Stone', price:39500, img:['src/assets/photo/budha/2_feet_asriwad_buddha/buddha_1.jpg','src/assets/photo/budha/2_feet_asriwad_buddha/buddha_2.jpg','src/assets/photo/budha/2_feet_asriwad_buddha/buddha_3.jpg','src/assets/photo/budha/2_feet_asriwad_buddha/buddha_4.jpg'], desc:'Blessing Buddha statue in Black Marble, height 24 inches, width 15 inches, and thickness 7 inches.'},
+  
+   <!--Dhyan Buddha -->
+  {id:'b4', title:'Dhyan Buddha', category:'Buddha', size:'2ft', material:'White Stone', price:52500, img:['src/assets/photo/budha/dhyan_buddha/buddha_1.jpg','src/assets/photo/budha/dhyan_buddha/buddha_2.jpg','src/assets/photo/budha/dhyan_buddha/buddha_3.jpg','src/assets/photo/budha/dhyan_buddha/buddha_2.jpg'], desc:'Dhyan Buddha statue in White Stone, height 24 inches, width 15 inches, and thickness 7 inches.'},
+  
+   <!--Fountain Buddha in Granite -->
+  {id:'b5', title:'Fountain Buddha', category:'Buddha', size:'3ft', material:'Grey Granite', price:125000, img:['src/assets/photo/budha/fountain_buddha/buddha_1.jpg','src/assets/photo/budha/fountain_buddha/buddha_2.jpg','src/assets/photo/budha/fountain_buddha/buddha_3.jpg','src/assets/photo/budha/fountain_buddha/buddha_4.jpg'], desc:'Fountain Buddha statue in Grey Granite, height 36 inches, width 24 inches, and thickness 12 inches.'},  
+  
+  <!--Dhyan Buddha in Pink Stone -->
+  {id:'b6', title:'Dhyan Buddha', category:'Buddha', size:'4ft', material:'Pink Stone', price:165000, img:['src/assets/photo/budha/dhyan_buddha_pink_stone/buddha_1.jpg','src/assets/photo/budha/dhyan_buddha_pink_stone/buddha_2.jpg','src/assets/photo/budha/dhyan_buddha_pink_stone/buddha_3.jpg','src/assets/photo/budha/dhyan_buddha_pink_stone/buddha_4.jpg'], desc:'Dhyan Buddha in Pink Stone, height 48 inches, width 27 inches, and thickness 15 inches.'}, 
+  
+  <!--6 feet Dhyan Buddha -->
+  {id:'b7', title:'Dhyan Buddha', category:'Buddha', size:'6ft', material:'White stone', price:375000, img:['src/assets/photo/budha/dhyan_buddha_6_feets/buddha_1.jpg','src/assets/photo/budha/dhyan_buddha_6_feets/buddha_2.jpg','src/assets/photo/budha/dhyan_buddha_6_feets/buddha_3.jpg','src/assets/photo/budha/dhyan_buddha_6_feets/buddha_4.jpg'], desc:'Dhyan Buddha in White Stone, height 72 inches, width 48 inches, and thickness 22 inches.'},   
+
+    <!--18 inch granite buddha -->
+  {id:'b8', title:'Dhyan Buddha', category:'Buddha', size:'1ft', material:'Grey Granite', price:375000, img:['src/assets/photo/budha/18_inches_granite_buddha/buddha_1.jpg','src/assets/photo/budha/18_inches_granite_buddha/buddha_2.jpg','src/assets/photo/budha/18_inches_granite_buddha/buddha_3.jpg','src/assets/photo/budha/18_inches_granite_buddha/buddha_4.jpg'], desc:'Dhyan Buddha in Grey Granite, height 18 inches, width 12 inches, and thickness 6 inches.'},
   
   <!--lord vishnu-->
   {id:'v1', title:'Vishnu on Garuda', category:'Vishnu', size:'3ft', material:'Granite', price:350000, img:['src/assets/photo/vishnu/sleeping/vishnu_sleeping_1.jpg','src/assets/photo/vishnu/sleeping/vishnu_sleeping_2.jpg','src/assets/photo/vishnu/sleeping/vishnu_sleeping_3.jpg','src/assets/photo/vishnu/sleeping/vishnu_sleeping_4.jpg'], desc:'Vishnu with Garuda in black granite stone, height 36 inches, width 60 inches, and thickness 18 inches.'},
