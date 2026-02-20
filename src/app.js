@@ -262,8 +262,22 @@ const PRODUCTS = [
    <!--Maa Kali head bust-->
    {id:'m4', title:'Grey stone Kali head bust', category:'Devi', size:'2ft', material:'Grey Stone', price:42500, img:['src/assets/photo/maa/kali/head_bust/kali_sitting_1.jpg','src/assets/photo/maa/kali/head_bust/kali_sitting_2.jpg','src/assets/photo/maa/kali/head_bust/kali_sitting_3.jpg','src/assets/photo/maa/kali/head_bust/kali_sitting_4.jpg'], desc:'Maa Kali head bust sculpture in grey stone, height 18 inches, width 15 inches, and thickness 6 inches.'},     
 
+<!--Lord Hanuman-->
+      <!--Red stone 4 feet Hanuman -->
+  {id:'h1', title:'Hanuman', category:'Hanuman', size:'4ft', material:'Red Stone', price:145000, img:['src/assets/photo/hanuman/4_feet_hanuman/hanuman_1.jpg','src/assets/photo/hanuman/4_feet_hanuman/hanuman_2.jpg','src/assets/photo/hanuman/4_feet_hanuman/hanuman_3.jpg','src/assets/photo/hanuman/4_feet_hanuman/hanuman_1.jpg'], desc:'Hanuman in Red Stone, height 48 inches, width 25 inches, and thickness 12 inches.'},
    
-   
+      <!--Marble Standing Hanuman -->
+  {id:'h2', title:'Standing Hanuman', category:'Hanuman', size:'3ft', material:'White Marble', price:105000, img:['src/assets/photo/hanuman/marble_standing_hanuman/hanuman_1.jpg','src/assets/photo/hanuman/marble_standing_hanuman/hanuman_2.jpg','src/assets/photo/hanuman/marble_standing_hanuman/hanuman_3.jpg','src/assets/photo/hanuman/marble_standing_hanuman/hanuman_1.jpg'], desc:'Standing Hanuman in White Marble, height 36 inches, width 18 inches, and thickness 10 inches.'},
+      <!--sitting hanuman with coloured  18 inch -->
+  {id:'h3', title:'Hanuman', category:'Hanuman', size:'1ft', material:'Black Granite', price:28500, img:['src/assets/photo/hanuman/sitting_hanuman_coloured_18_inch/hanuman_1.jpg','src/assets/photo/hanuman/sitting_hanuman_coloured_18_inch/hanuman_2.jpg','src/assets/photo/hanuman/sitting_hanuman_coloured_18_inch/hanuman_3.jpg','src/assets/photo/hanuman/sitting_hanuman_coloured_18_inch/hanuman_4.jpg'], desc:'Hanuman in Black Granite, height 18 inches, width 10 inches, and thickness 6 inches.'}, 
+    <!--Panchamukhi Hanuman 36 inch -->
+  {id:'h4', title:'Hanuman', category:'Hanuman', size:'3ft', material:'Grey Granite', price:105000, img:['src/assets/photo/hanuman/panchamukhi_hanuman_36_inch/hanuman_1.jpg','src/assets/photo/hanuman/panchamukhi_hanuman_36_inch/hanuman_2.jpg','src/assets/photo/hanuman/panchamukhi_hanuman_36_inch/hanuman_3.jpg','src/assets/photo/hanuman/panchamukhi_hanuman_36_inch/hanuman_4.jpg'], desc:'Hanuman in Grey Granite, height 36 inches, width 21 inches, and thickness 12 inches.'}, 
+    <!--Painted Panchamukhi Hanuman -->
+  {id:'h5', title:'Hanuman', category:'Hanuman', size:'3ft', material:'Grey Granite', price:135000, img:['src/assets/photo/hanuman/panchamukhi_hanuman/hanuman_1.jpg','src/assets/photo/hanuman/panchamukhi_hanuman/hanuman_2.jpg','src/assets/photo/hanuman/panchamukhi_hanuman/hanuman_3.jpg','src/assets/photo/hanuman/panchamukhi_hanuman/hanuman_4.jpg'], desc:'Hanuman in Grey Granite, height 42 inches, width 25 inches, and thickness 12 inches.'},
+    <!--Standing hanuman with Gada Black Granite -->
+  {id:'h6', title:'Hanuman', category:'Hanuman', size:'2ft', material:'Black Granite', price:65000, img:['src/assets/photo/hanuman/hanuman_with_gada_black_granite/hanuman_1.jpg','src/assets/photo/hanuman/hanuman_with_gada_black_granite/hanuman_2.jpg','src/assets/photo/hanuman/hanuman_with_gada_black_granite/hanuman_3.jpg','src/assets/photo/hanuman/hanuman_with_gada_black_granite/hanuman_4.jpg'], desc:'Hanuman in Black Granite, height 30 inches, width 15 inches, and thickness 10 inches.'},
+    <!--Standing hanuman with Gada-->
+  {id:'h7', title:'Hanuman', category:'Hanuman', size:'3ft', material:'Grey Granite', price:95000, img:['src/assets/photo/hanuman/standing_hanuman_grey_granite/hanuman_1.jpg','src/assets/photo/hanuman/standing_hanuman_grey_granite/hanuman_2.jpg','src/assets/photo/hanuman/standing_hanuman_grey_granite/hanuman_3.jpg','src/assets/photo/hanuman/standing_hanuman_grey_granite/hanuman_4.jpg'], desc:'Hanuman in Black Granite, height 36 inches, width 18 inches, and thickness 10 inches.'},  
 ];
 
 /* Render utilities */
